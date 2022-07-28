@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(100%, 50%);
+  transform: translate(100%, 35%);
 }
 .card .picture img {
   border-radius: 40px;
