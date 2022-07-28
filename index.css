@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-image: url(./background.png);
+  width: 244px;
+  height: 359px;
+  background-size: cover;
+  box-shadow: -5px 5px 7px #bebebe, 5px -5px 7px #ffffff;
+  border-radius: 40px;
+  padding-top: 3em;
+}
+
+.card .firstPart {
+  flex: 0.6;
+  color: white;
+  text-align: center;
+}
+
+.card .firstPart .title {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: lowercase;
+  z-index: 3;
+}
+
+.card .picture {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(100%, 50%);
+}
+.card .picture img {
+  border-radius: 40px;
+  height: 70px;
+  width: 70px;
+  background-color: white;
+}
+
+.card .firstPart .function {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.card .secondPart {
+  flex: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+.card .secondPart .description {
+  padding: 1.5em 0 0 0;
+}
+.card .secondPart .description .descriptionTitle {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.card .secondPart .description p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #5b5252;
+}
+.card .secondPart .links {
+  display: flex;
+  justify-content: center;
+}
+.card .secondPart .links i {
+  color: #060005;
+  font-size: 17px;
+  padding: 0.5em;
+}
